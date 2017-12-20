@@ -1,0 +1,29 @@
+{
+  "name": "restify-hello-world",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenichishibata/restify-hello-world.git"
+  },
+  "author": "Kenichi Shibata <kenichi.shibata3123@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/kenichishibata/restify-hello-world/issues"
+  },
+  "homepage": "https://github.com/kenichishibata/restify-hello-world#readme",
+  "dependencies": {
+    "bunyan": "1.8.12",
+    "node-config-manager": "1.2.0",
+    "restify": "6.3.4"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-jshint": "2.0.4"
+  }
+}
